@@ -1,7 +1,7 @@
 export default function SortingOption() {
   return (
     <div>
-      <label for="sort" className="text-sm font-medium text-gray-700 mr-2">
+      <label htmlFor="sort" className="text-sm font-medium text-gray-700 mr-2">
         Sort by:
       </label>
       <select

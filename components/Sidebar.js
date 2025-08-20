@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Footer from "./Footer";
 
 export default function Sidebar() {
@@ -9,54 +10,54 @@ export default function Sidebar() {
             Discover more of what matters to you
           </h3>
           <div className="flex flex-wrap gap-2">
-            <a
+            <Link
               href="#"
               className="bg-green-200 font-medium px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Programming
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Data Science
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Technology
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Self Improvement
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Writing
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Relationships
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Machine Learning
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="bg-gray-100 px-4 py-2 rounded-full text-sm hover:bg-gray-200 transition-colors"
             >
               Productivity
-            </a>
+            </Link>
           </div>
         </div>
         <Footer />

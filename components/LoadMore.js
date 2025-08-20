@@ -8,6 +8,7 @@ export default function LoadMore({ blogs }) {
   const handleClick = () => {
     setClicked((prev) => !prev);
   };
+
   return (
     <>
       <div className="text-center">

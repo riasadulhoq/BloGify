@@ -1,10 +1,6 @@
-import blogs from "@/data/data.json";
-import getBlogsBySlug from "@/utils/getBlogsBySlug";
 import Image from "next/image";
 
-export default function SingleArticle({ slug }) {
-  const blog = getBlogsBySlug(blogs, slug);
-  //   console.log(blog);
+export default function SingleArticle({ blog }) {
   const { title, author, description, date, category } = blog;
   return (
     <>
