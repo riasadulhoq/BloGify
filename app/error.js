@@ -11,7 +11,9 @@ export default function Error({ error, reset }) {
   return (
     <div className="lg:w-2/3 lg:pr-12">
       <h2 className="text-xl font-bold mb-8">Something went wrong!</h2>
-      <p className="text-lg font-semibold mb-8">Error: {error?.message}</p>
+      <p className="text-lg font-semibold mb-8">
+        Error: <span className="text-base font-medium">{error?.message}</span>
+      </p>
       <button
         className="bg-green-300 px-4 py-2 rounded-full text-md hover:bg-green-500 transition-colors"
         onClick={

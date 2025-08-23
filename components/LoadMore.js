@@ -16,7 +16,7 @@ export default function LoadMore({ blogs }) {
           className="border border-gray-300 text-gray-700 px-6 py-3 rounded-full hover:bg-gray-50 transition-colors"
           onClick={handleClick}
         >
-          {clicked ? "Hide" : "Load more"}
+          {clicked ? "Show less" : "Load more"}
         </button>
       </div>
       {clicked &&

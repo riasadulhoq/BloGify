@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function SingleArticle({ blog }) {
+export default function SingleArticle({ blog, searchParams }) {
   const { title, author, description, date, category } = blog;
   return (
     <>

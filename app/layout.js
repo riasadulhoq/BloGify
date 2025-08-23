@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import Sidebar from "@/components/Sidebar";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import localFont from "next/font/local";
@@ -36,7 +35,7 @@ export default function RootLayout({ children }) {
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row">
               {children}
-              <Sidebar />
+              {/* <Sidebar /> */}
             </div>
           </div>
         </div>
