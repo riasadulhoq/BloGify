@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blogify
+
+Blogify is a modern blogging platform built with [Next.js](https://nextjs.org/). It allows users to browse, filter, and sort articles by category and other criteria. The project demonstrates best practices in building interactive, SEO-friendly web applications using the Next.js app directory, server and client components, and dynamic routing.
+
+**Key features:**
+
+- Browse a feed of articles with category and sorting options
+- Filter articles by multiple categories
+- Sort articles by latest, oldest, popularity, or read time
+- Responsive and accessible UI
+- Built with Next.js app directory and React components
+
+This project is ideal for learning about Next.js server/client component architecture and building scalable web apps.
+
+---
+
+## Project Structure
+
+```
+blogify/
+├── app/                # Next.js app directory (routing, layouts, pages)
+│   ├── layout.js
+│   ├── page.js
+│   └── ...
+├── components/         # Reusable React components (Sidebar, Article, etc.)
+├── data/               # Static data (e.g., data.json for blogs)
+├── public/             # Static assets (images, favicon, etc.)
+├── styles/             # Global and component-level styles
+├── utils/              # Utility functions (e.g., getCategories)
+├── README.md
+├── package.json
+└── ...
+```
+
+---
 
 ## Getting Started
 
@@ -19,6 +53,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+---
 
 ## Learn More
 
